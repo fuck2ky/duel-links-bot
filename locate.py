@@ -14,6 +14,7 @@ class Location:
         self.region_dict = region_dict
 
     def locate_img(self, img, region, timeout=1, click=False):
+        # timeout 重试次数
         try:
             img_center = ag.locateCenterOnScreen(img, region=self.region_dict[region], confidence=0.8, grayscale=True)
         except ag.ImageNotFoundException:

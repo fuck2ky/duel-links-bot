@@ -4,7 +4,6 @@ import numpy
 import pyautogui as ag
 from context import *
 
-
 class Click:
     def __init__(self):
         self.btn_dict = {}

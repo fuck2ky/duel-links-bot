@@ -1,5 +1,11 @@
 import time
 
+
+
+# image path
+main_window_image_path = 'mail.png'
+
+
 # windows
 default_resolution = (1920, 1080)
 left_mid_right = (553, 814, 553)
