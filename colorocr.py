@@ -1,4 +1,3 @@
-from cnocr import CnOcr
 import cv2
 import numpy as np
 import pytesseract

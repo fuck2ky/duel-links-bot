@@ -6,7 +6,7 @@ from mclick import *
 
 def finish_ops():
     finish_conut = 0
-    while not locate.locate_img('./image/mail.png', 'middle'):
+    while not locate.locate_img('./image/mail2.png', 'middle'):
         # if not ocr.do(c=color_dict['white'], region=region_dict['end_words'], words='finish_step',
         #               orway=True):
         #     click.click_btn('center')
@@ -39,7 +39,7 @@ if __name__ == "__main__":
     while True:
         # step0  from main to gate
         gate_duel_step = 0
-        if gate_duel_step == 0 and not locate.locate_img('./image/mail.png', 'middle'):
+        if gate_duel_step == 0 and not locate.locate_img('./image/mail2.png', 'middle'):
             time.sleep(0.5)
             click.click_btn('center')
             continue
